@@ -24,7 +24,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full min-h-[40px] md:min-h-[50px] flex justify-between items-start absolute z-10 bg-transparent p-10 p md:px-24">
+    <nav className="w-full min-h-[40px] md:min-h-[50px] flex justify-between items-center absolute z-10 bg-transparent p-6 md:py-12 md:px-16">
       {/* logo section */}
       <div className="">
         <h1 className="text-2xl text-yellow-50 font-bold cursor-pointer">
