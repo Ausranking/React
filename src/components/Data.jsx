@@ -1,7 +1,5 @@
-
 //No function here because component is just storing an array of people objects
 // This could be generated from an Api calculateNewValue, a database or a localStorage
-
 
 export const people = [
   {
@@ -43,7 +41,6 @@ export const people = [
 ];
 //..............DATA OF RECIPPES...........
 //Make a list of recipes from this array! For each recipe in the array, display its name as an <h2> and list its ingredients in a <ul>.
-
 
 export const recipes = [
   {

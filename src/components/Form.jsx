@@ -29,8 +29,8 @@ class Form extends Component {
   render() {
     return (
       <section className="grid place-items-center">
-        <h1>React Form</h1>
-        <form action="">
+        <h1 className="py-6">React Form</h1>
+        <form action="" onSubmit={this.handleSubmit}>
           <div>
             <input
               className="text-primary-dark p-2 rounded shadow-xl"
@@ -51,11 +51,7 @@ class Form extends Component {
             />
           </div>
 
-          <button
-            type="submit"
-            className="submit-btn w-full p-2 ring"
-            onSubmit={this.handleSubmit}
-          >
+          <button type="submit" className="submit-btn w-full p-2 ring">
             Submit
           </button>
         </form>
@@ -69,15 +65,6 @@ class Form extends Component {
             Lastname: {this.state.lastname.toLocaleUpperCase()}
           </h3>
         </div>
-        <Card
-          stand="A stand in Form"
-          pledge="Pledge $5 or more"
-          desc=" I am practicing the principle of reuseability in props by using the card componet across other components. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-        cupiditate! Consectetur illo quaerat velit quae doloribus architecto
-        veniam deleniti optio a, rem vitae ipsam facilis eligendi quod sunt
-        illum odit"
-          num="64"
-        />
       </section>
     );
   }

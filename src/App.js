@@ -2,10 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Form from "./components/Form";
 import About from "./components/About";
-import Card from "./components/Card";
-import Navbar from "./components/Navbar";
-import ActiveButton from "./components/ActiveButton";
-import Example from "./components/Example";
+import InactiveCard from "./components/InactiveCard";
 
 function App() {
   return (
@@ -15,7 +12,7 @@ function App() {
       <section className="grid place-items-center relative -top-24">
         <About />
       </section>
-      {/* <Example/> */}
+      <Form />
     </div>
   );
 }
