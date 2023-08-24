@@ -4,17 +4,19 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'main-bg' : 'url(/src/images/home-bg.jpg)'
+        "header-bg": "url(/src/images/bg-header.jpg)",
+        "main-bg": "url(/src/images/home-bg.jpg)",
       },
       height: {
-        'screen-half' : '70vh',
-        '1/3': '30vh'
+        "screen-half": "70vh",
+        "1/3": "30vh",
       },
       textColor: {
-       'primary-dark': '#5651e5'
-      }
+        "primary-dark": "#5651e5",
+      },
     },
   },
   plugins: [],
-}
+};
+
 

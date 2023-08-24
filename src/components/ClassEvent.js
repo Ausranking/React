@@ -7,7 +7,7 @@ class ClassEvent extends Component {
   render() {
     return (
       <div>
-        Class Event handler
+        {/* Class Event handler */}
         <button onClick={this.HandleClick}>Click</button>
       </div>
     );

@@ -41,5 +41,30 @@ export const people = [
     imageId: "lrWQx8l",
   },
 ];
+//..............DATA OF RECIPPES...........
+//Make a list of recipes from this array! For each recipe in the array, display its name as an <h2> and list its ingredients in a <ul>.
 
-console.log(people)
+
+export const recipes = [
+  {
+    id: "greek-salad",
+    name: "Greek Salad",
+    ingredients: ["tomatoes", "cucumber", "onion", "olives", "feta"],
+  },
+  {
+    id: "hawaiian-pizza",
+    name: "Hawaiian Pizza",
+    ingredients: [
+      "pizza crust",
+      "pizza sauce",
+      "mozzarella",
+      "ham",
+      "pineapple",
+    ],
+  },
+  {
+    id: "hummus",
+    name: "Hummus",
+    ingredients: ["chickpeas", "olive oil", "garlic cloves", "lemon", "tahini"],
+  },
+];

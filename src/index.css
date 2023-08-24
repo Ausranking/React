@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
 :root {
     --primary-dark: #5651e5;
 }
 
 @layer base {
-     h1 {
-        @apply text-primary-dark uppercase
+    h1 {
+        @apply text-primary-dark uppercase text-3xl
     }
-    h2 {
-        @apply text-2xl text-center uppercase font-mono touch-pan-up my-5
+
+    body {
+        @apply font-[commissioner]
     }
 
     html {
@@ -22,7 +25,7 @@
         @apply px-4 py-1 bg-red-500 max-w-lg rounded-lg shadow-2xl
     }
 
-    li{
-        @apply p-2  m-auto shadow-2xl cursor-pointer hover:bg-emerald-300 rounded-md
-    }
+    /* li{
+        @apply m-auto shadow-2xl cursor-pointer hover:bg-emerald-300 rounded
+    } */
 }
